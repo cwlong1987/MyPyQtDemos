@@ -1,4 +1,4 @@
-###相关说明
+### 相关说明
 使用QCompleter类，就可以实现自动补全功能，效果图如下：
 ![](https://upload-images.jianshu.io/upload_images/1724251-db91fea7710d958d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

@@ -1,10 +1,10 @@
-###相关说明
+### 相关说明
 本文给出的是TCP协议的Socket编程。
 
-
 其中用了一个dbmanager数据库操作模块，这个模块是我自己定义的，可以在我的另一个文章中找到这个模块的分享。[python操作mysql数据库的精美实用模块](https://www.jianshu.com/p/3785e36fad95)
-###服务段完整代码
+### 服务段完整代码
 【如下代码，完全复制，直接运行，即可使用】
+
 ```python
 import socket
 import threading
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 ```
 
 
-###客户端完整代码
+### 客户端完整代码
 【如下代码，完全复制，直接运行，即可使用】
 ```python
 import socket

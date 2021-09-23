@@ -1,23 +1,23 @@
-####说明
+#### 说明
 在 [QWebEngineView使用模板2](https://www.jianshu.com/p/7e68df8a25ed)的基础上，补充增加了一些功能。
 
-
-####一.支持视频播放
+#### 一.支持视频播放
 关键代码
+
 ```python
 self.settings().setAttribute(QWebEngineSettings.PluginsEnabled, True)      #支持视频播放
 ```
 
-
-####二.支持页面关闭请求
+#### 二.支持页面关闭请求
 关键代码
+
 ```python
 self.page().windowCloseRequested.connect(self.on_windowCloseRequested)     #页面关闭请求
 ```
 
-
-####三.支持页面下载请求
+#### 三.支持页面下载请求
 关键代码
+
 ```python
 self.page().profile().downloadRequested.connect(self.on_downloadRequested) #页面下载请求
 ```

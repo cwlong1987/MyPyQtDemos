@@ -1,10 +1,10 @@
-###文章说明
+### 文章说明
 编程过程中，出现BUG不可避免，所以经常要进行调试.
 在[廖雪峰的python3教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)中，有一篇专门讲[调试的文章](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431915578556ad30ab3933ae4e82a03ee2e9a4f70871000)，简单列举了调试的几种方法，建议先进行阅读，了解一下。
 
 为更方便新手学习，我结合自身开发情况，进一步补充一下。
 
-###一.print大法
+### 一.print大法
 如果不是确定要记录到日志，一般用的最多的还是print。
 print()内置函数，一般最初学习python的时候，就接触到了，这里再列举一下几种调试常用的print用法。
 
@@ -26,13 +26,13 @@ print("进来了" , name)
 >6.打印文字+变量
 print("进来了，名字是%s，年龄是%d" % (name , age))                       
 
-###二.IDE断点调试
+### 二.IDE断点调试
 如图所示，为PyCharm的调试。
 （注：图为网页分享，并非原创。找不到原图链接了，抱歉。）
 
 ![](https://upload-images.jianshu.io/upload_images/1724251-b2d707c7152b1c6c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###三.终极武器logging
+### 三.终极武器logging
 python有一个标准库logging，用来管理日志。
 通过整个标准库，可以进一步构建自己的日志模块。
 如下是一个自定义的日志模板。

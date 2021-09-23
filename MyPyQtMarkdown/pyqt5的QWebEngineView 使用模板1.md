@@ -1,18 +1,18 @@
-####说明1：关于QWebEngineView
+#### 说明1：关于QWebEngineView
 pyqt5 已经抛弃  QtWebKit和QtWebKitWidgets，而使用最新的QtWebEngineWidgets。
 QtWebEngineWidgets，是基于chrome浏览器内核引擎的。
 
-
-####说明2：关于左键点击页面跳转
+#### 说明2：关于左键点击页面跳转
 其中，最让纠结的就是实现左键点击页面跳转了。
 在chrome浏览器上，有些页面，左键点击，会直接创建一个新的tab来呈现网页。
 在使用QWebEngineView时，如果不做特殊处理，这样的左键点击，是根本没有反应的。
 那怎么办？就需要重写QWebEngineView的createWindow方法。
 
-####说明3：关于createWindow方法重写
+#### 说明3：关于createWindow方法重写
 在重写QWebEngineView的createWindow方法时，又有两种写法。
 **第一种**，是直接在本窗口新建tab的方式。   （不推荐使用这种方式）
 注：这种方式有个问题，因为新建的tab覆盖了原来的tab，所以，原来tab的所有信息都找不到了，如浏览，账号，密码等。
+
 ```python
 class WebEngineView(QWebEngineView):
     # 重写createwindow()

@@ -1,7 +1,8 @@
-###说明
+### 说明
 本例，在[登录界面第一版](https://www.jianshu.com/p/64f154308637)的基础上，增加了主界面的注销功能和退出功能。
 
-###注销功能
+### 注销功能
+
 ```python
     # 动作一：注销
     def on_printAction1_triggered(self):
@@ -13,7 +14,8 @@
             the_window.show()
 ```
 
-###退出功能
+### 退出功能
+
 ```python
     # 动作二：退出
     def on_printAction2_triggered(self):
@@ -23,7 +25,7 @@
 还是很简单的吧，好了，下面给出完整代码。
 
 
-###完整代码
+### 完整代码
 【如下代码，完全复制，直接运行，即可使用】
 ```python
 import sys

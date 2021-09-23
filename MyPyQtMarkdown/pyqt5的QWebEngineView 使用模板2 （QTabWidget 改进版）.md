@@ -1,13 +1,13 @@
-####说明一
+#### 说明一
 对比 [QWebEngineView使用模板1](https://www.jianshu.com/p/5f6e29a357f1)，抛弃了创建新窗口的实现方法。
 而是使用QTabWidget，创建新的tab来实现，这样更加符合浏览器的设计。
 
-####说明二
+#### 说明二
 QWebEngineView，结合 QTabWidget ，模拟了常规浏览器的简单实现。
 本例依旧十分简陋，很多功能并没有进行扩展开发。
 抛砖引玉，希望对大家有所帮助。
 
-####效果图
+#### 效果图
 ![](https://upload-images.jianshu.io/upload_images/1724251-4ce2f14a14ce80d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 

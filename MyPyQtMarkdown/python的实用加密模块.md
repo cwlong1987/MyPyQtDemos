@@ -1,9 +1,10 @@
-####说明一：关于MD5，SHA1，SHA256，SHA512加密
+#### 说明一：关于MD5，SHA1，SHA256，SHA512加密
 这几个哈希算法的加密，都在python的内建模块hashlib里有支持。
 本模块的该部分主要参考[廖雪峰的python3教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014319556588648dd1fb0047a34d0c945ee33e8f4c90cc000)编写，大家根据教程可以进一步了解下。
 
-####说明二：关于AES加密
+#### 说明二：关于AES加密
 AES加密，用的是第三方模块 pycryptodome。
+
 >模块安装命令：pip install pycryptodome 
 
 AES有好几种模式，本模块列了ECB，CFB，CBC三种模式。据说，CBC模式是其中公认的安全性最好的模式。至于它们的加密原理，本人精力有限，也没深入研究，大家自行了解下。
